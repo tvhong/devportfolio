@@ -660,18 +660,28 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    text-align: left;
 
     h3 {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
+        margin: 0;
+    }
+
+    h4 {
+        font-weight: lighter;
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+    
+    a {
+        text-align: center;
     }
 }
 
